@@ -1,0 +1,15 @@
+public class Person{
+
+  Person(){
+  }
+  
+  Person(String initName, int initAge, Boolean initGender){
+    Name = initName;
+    Age = initAge;
+    IsMale = initGender;
+  }
+  
+  String Name;
+  int Age;
+  Boolean IsMale;
+}
